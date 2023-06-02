@@ -1,0 +1,27 @@
+.formName{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formNumber{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnForm{
+    margin-bottom: 10px;
+    background-color: bisque;
+    border-radius: 20px;
+    transition: color, background-color 250ms cubic-bezier(.17,.67,.83,.67)
+}
+.btnForm:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+    
+}
+.inputTitle{
+    margin-top: 5px;
+}
