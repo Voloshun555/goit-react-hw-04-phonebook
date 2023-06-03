@@ -38,6 +38,7 @@ this.setState(prevState => ({
   };
 
   addContact = data => {
+    console.log(data)
     data.id = nanoid();
     const nameToLowerCase = data.name.toLowerCase();
 
